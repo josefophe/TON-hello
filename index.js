@@ -1,5 +1,6 @@
 const {TonClient} = require("@tonclient/core");
 const {libNode} = require("@tonclient/lib-node");
+const contractPackage = require('./HelloContract.js');
 
 
 (async () => {
